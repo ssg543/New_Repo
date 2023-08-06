@@ -1,0 +1,10 @@
+public class ParameterizedJavaApp {
+    public static void main(String[] args) {
+        if (args.length > 0) {
+            String parameterValue = args[0];
+            System.out.println("Parameter value: " + parameterValue);
+        } else {
+            System.out.println("No parameter value provided.");
+        }
+    }
+}
